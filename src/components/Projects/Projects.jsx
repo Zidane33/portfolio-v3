@@ -70,7 +70,7 @@ const Projects = () => {
                         </a>
                       )}
                     </div>
-                    <TechCard techList={tech}/>
+                    <TechCard tech={tech} />
                   </Fade>
                 </Col>
                 <Col lg={8} sm={12}>
