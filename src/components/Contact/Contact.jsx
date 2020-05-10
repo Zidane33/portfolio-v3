@@ -3,6 +3,7 @@ import Fade from 'react-reveal/Fade';
 import { Container } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
+import ContactForm from '../Contact-Form/ContactForm';
 
 const Contact = () => {
   const { contact } = useContext(PortfolioContext);
@@ -25,6 +26,7 @@ const Contact = () => {
             >
               {btn || "Let's Talk"}
             </a>
+            <ContactForm />
           </div>
         </Fade>
       </Container>
