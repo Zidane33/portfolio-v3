@@ -4,6 +4,7 @@ import About from './About/About';
 import Projects from './Projects/Projects';
 import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
+import Navbar from './Navbar/Navbar';
 
 import { PortfolioProvider } from '../context/context';
 
@@ -25,11 +26,12 @@ function App() {
   }, []);
 
   return (
-    <PortfolioProvider value={{ hero, about, projects, contact, footer }}>
-      <Hero />
-      <About />
-      <Projects />
-      <Contact />
+    <PortfolioProvider id="container" value={{ hero, about, projects, contact, footer }}>
+      <Navbar />
+      <Hero id="hero" />
+      <About id="/about" />
+      <Projects id="projects" />
+      <Contact id="contact" />
       <Footer />
     </PortfolioProvider>
   );
