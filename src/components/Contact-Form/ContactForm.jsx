@@ -69,7 +69,7 @@ export default function Contact() {
           </label>
         </p>
         <p>
-          <button type="submit">Send</button>
+          <button className="cta-btn cta-btn--resume" type="submit">Send</button>
         </p>
       </form>
     </>

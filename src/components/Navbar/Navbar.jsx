@@ -2,10 +2,9 @@ import React, { useState } from 'react';
 import Scroll from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-import '../../style/components/_navbar.scss';
 
 const Navbar = () => {
-  const [menuHidden, setMenuHidden] = useState(false);
+  const [menuHidden, setMenuHidden] = useState(true);
   const toggleMenu = () => setMenuHidden(!menuHidden);
 
   const ScrollLink = Scroll.Link;
@@ -13,8 +12,10 @@ const Navbar = () => {
     <>
       <div className="nav-menu">
         <button id='menu-button' type="button" onClick={toggleMenu}>
-            <FontAwesomeIcon icon={faBars} />
-            <span className='menu-title'>Menu</span>
+            <FontAwesomeIcon icon={faBars} size="lg" />
+            {menuHidden && (
+                <span className='menu-title'>Menu</span>
+            )}
         </button>
         {!menuHidden && (
           <>

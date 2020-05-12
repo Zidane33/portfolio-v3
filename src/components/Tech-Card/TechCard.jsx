@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../style/components/_techCard.scss';
 
 const TechCard = (tech) => {
     const techList = tech.tech;
