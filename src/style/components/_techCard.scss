@@ -1,10 +1,14 @@
+.tech-list {
+    display: flex;
+}
+
 .tech-card {
     background-color: black; 
     color: white;
     border-radius: 20px;
     padding: 2px 8px;
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 1000;
     display: inline-block;
+    margin: 2rem 0rem;
 }
-

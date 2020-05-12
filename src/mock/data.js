@@ -44,7 +44,7 @@ export const projectsData = [
     info2: '',
     url: '',
     repo: 'https://github.com/Zidane33/shopify-art-store',  
-    tech: ['python', 'flask', 'bootstrap'],
+    tech: ['react', 'stripe api', 'spring boot', 'aws'],
   },
   {
     id: uuidv1(),
@@ -54,7 +54,7 @@ export const projectsData = [
     info2: '',
     url: '',
     repo: 'https://github.com/Zidane33/GSA',  
-    tech: ['python', 'flask', 'bootstrap'],
+    tech: ['react', 'gatsby', 'graphql', 'headless wordpress'],
   },
   {
     id: uuidv1(),
@@ -64,7 +64,7 @@ export const projectsData = [
     info2: '',
     url: 'https://jay-ramasubramanyam.com/',
     repo: 'https://github.com/Zidane33/grad-portfolios',  
-    tech: ['python', 'flask', 'bootstrap'],
+    tech: ['react'],
   },
 ];
 

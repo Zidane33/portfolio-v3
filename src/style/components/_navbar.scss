@@ -9,9 +9,21 @@
     cursor: pointer;
     position: fixed;
     top: 50%;
+    margin-left: 4rem;
 }
 
 .menu-link {
     margin: 2rem 2rem;
     font-size: 20px;
 }
+
+#menu-button {
+    background-color: black;
+    border: 0px;
+    color: white;
+}
+
+.menu-title {
+    display: block;
+}
+

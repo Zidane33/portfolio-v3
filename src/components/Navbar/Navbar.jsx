@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import Scroll from 'react-scroll';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 import '../../style/components/_navbar.scss';
 
 const Navbar = () => {
@@ -10,8 +12,9 @@ const Navbar = () => {
   return (
     <>
       <div className="nav-menu">
-        <button type="button" onClick={toggleMenu}>
-          Toggle Menu
+        <button id='menu-button' type="button" onClick={toggleMenu}>
+            <FontAwesomeIcon icon={faBars} />
+            <span className='menu-title'>Menu</span>
         </button>
         {!menuHidden && (
           <>
