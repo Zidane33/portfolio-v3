@@ -13,8 +13,8 @@ const ProjectImg = ({ filename, alt }) => (
               relativePath
               name
               childImageSharp {
-                fluid(maxWidth: 500) {
-                  ...GatsbyImageSharpFluid
+                  fixed(width: 200, height: 200) {
+                  ...GatsbyImageSharpFixed
                 }
               }
             }
@@ -29,8 +29,8 @@ const ProjectImg = ({ filename, alt }) => (
 
       if (!image) return null;
 
-      const imageFluid = image.node.childImageSharp.fluid;
-      return <Img alt={alt} fluid={imageFluid} />;
+      const imageFixed = image.node.childImageSharp.fixed;
+        return <Img alt={alt} fixed={imageFixed} />;
     }}
   />
 );
