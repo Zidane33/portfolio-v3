@@ -11,24 +11,22 @@ const Navbar = () => {
   return (
     <>
       <div className="nav-menu">
-        <button id='menu-button' type="button" onClick={toggleMenu}>
-            <FontAwesomeIcon icon={faBars} size="lg" />
-            {menuHidden && (
-                <span className='menu-title'>Menu</span>
-            )}
+        <button id="menu-button" type="button" onClick={toggleMenu}>
+          <FontAwesomeIcon icon={faBars} size="lg" />
+          {menuHidden && <span className="menu-title">Menu</span>}
         </button>
         {!menuHidden && (
           <>
-            <ScrollLink to="hero" className="menu-link">
+            <ScrollLink to="hero" className="menu-link" onClick={toggleMenu}>
               Home
             </ScrollLink>
-            <ScrollLink to="about" className="menu-link">
+            <ScrollLink to="about" className="menu-link" onClick={toggleMenu}>
               Resume
             </ScrollLink>
-            <ScrollLink to="projects" className="menu-link">
+            <ScrollLink to="projects" className="menu-link" onClick={toggleMenu}>
               Projects
             </ScrollLink>
-            <ScrollLink to="contact" className="menu-link">
+            <ScrollLink to="contact" className="menu-link" onClick={toggleMenu}>
               Contact Me
             </ScrollLink>
           </>
