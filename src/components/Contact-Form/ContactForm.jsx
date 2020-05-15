@@ -1,5 +1,5 @@
-import React from 'react'
-import { navigate } from 'gatsby-link'
+import React from 'react';
+import { navigate } from 'gatsby-link';
 
 function encode(data) {
   return Object.keys(data)
@@ -9,6 +9,7 @@ function encode(data) {
 
 export default function Contact() {
   const [state, setState] = React.useState({})
+  const [isButtonPressed, setButtonPressed] = React.useState(false);
 
   const handleChange = (e) => {
     setState({ ...state, [e.target.name]: e.target.value })
@@ -26,6 +27,7 @@ export default function Contact() {
       }),
     })
       .then(() => navigate(form.getAttribute('action')))
+      .then(() => setButtonPressed(true))
       .catch((error) => alert(error))
   }
 
@@ -68,7 +70,7 @@ export default function Contact() {
           </label>
         </p>
         <p>
-          <button className="cta-btn cta-btn--resume" type="submit">Send</button>
+            <button className="cta-btn cta-btn--resume" disabled={isButtonPressed} type="submit">{isButtonPressed ? 'Thanks!': 'Submit'}</button>
         </p>
       </form>
     </>
