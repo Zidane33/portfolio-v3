@@ -1,0 +1,23 @@
+.contact-form {
+    text-align: left;
+    font-weight: 700;
+}
+.contact {
+    display: flex;
+}
+.contact-label {
+    width: 100%;
+}
+.contact-input, .contact-message {
+    width: 90%;
+    background: transparent;
+    outline:none;
+    border:none;
+    border-bottom: 1px solid #bdbdbd;
+    color: #333;
+    font-weight: 100;
+}
+
+.contact-message {
+    width: 95%;
+}

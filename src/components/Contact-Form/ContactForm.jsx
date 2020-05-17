@@ -34,6 +34,7 @@ export default function Contact() {
   return (
     <>
       <form
+        className='contact-form'
         name="contact"
         method="post"
         action="/thanks/"
@@ -48,28 +49,26 @@ export default function Contact() {
             Don’t fill this out: <input name="bot-field" onChange={handleChange} />
           </label>
         </p>
-        <p>
-          <label>
+        <p className="contact">
+          <label className='contact-label'>
             Your name:
             <br />
-            <input type="text" name="name" onChange={handleChange} />
+            <input type="text" className='contact-input' name="name" onChange={handleChange} />
           </label>
-        </p>
-        <p>
-          <label>
+          <label className='contact-label'>
             Your email:
             <br />
-            <input type="email" name="email" onChange={handleChange} />
+            <input type="email" className='contact-input' name="email" onChange={handleChange} />
           </label>
         </p>
         <p>
-          <label>
+          <label className='contact-label'>
             Message:
             <br />
-            <textarea name="message" onChange={handleChange} />
+            <textarea name="message" rows="4" className='contact-message' onChange={handleChange} />
           </label>
         </p>
-        <p>
+          <p style={{textAlign:'center'}}>
             <button className="cta-btn cta-btn--resume" disabled={isButtonPressed} type="submit">{isButtonPressed ? 'Thanks!': 'Submit'}</button>
         </p>
       </form>
