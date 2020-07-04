@@ -3,7 +3,7 @@ import { navigate } from 'gatsby-link';
 
 function encode(data) {
   return Object.keys(data)
-    .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+    .map(key => `${encodeURIComponent(key)} = ${encodeURIComponent(data[key])}`)
     .join('&')
 }
 
@@ -11,11 +11,11 @@ export default function Contact() {
   const [state, setState] = React.useState({})
   const [isButtonPressed, setButtonPressed] = React.useState(false);
 
-  const handleChange = (e) => {
-    setState({ ...state, [e.target.name]: e.target.value })
+  const handleChange = e => {
+    setState({ ...state, [e.target.name]: e.target.value });
   }
 
-  const handleSubmit = (e) => {
+  const handleSubmit = e => {
     e.preventDefault()
     const form = e.target
     fetch('/', {
@@ -28,7 +28,7 @@ export default function Contact() {
     })
       .then(() => navigate(form.getAttribute('action')))
       .then(() => setButtonPressed(true))
-      .catch((error) => alert(error))
+          .catch(() => console.log(e))
   }
 
   return (
@@ -70,7 +70,7 @@ export default function Contact() {
         </p>
           <p style={{textAlign:'center'}}>
             <button className="cta-btn cta-btn--resume" disabled={isButtonPressed} type="submit">{isButtonPressed ? 'Thanks!': 'Submit'}</button>
-        </p>
+          </p>
       </form>
     </>
   )

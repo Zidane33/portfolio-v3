@@ -1,15 +1,11 @@
 .nav-menu {
     display: flex;
-    flex-direction: column;
     z-index: 50;
     justify-content: flex-end;
     background-color: $primary-color;
     padding: 1rem;
     color: $white-color !important;
     cursor: pointer;
-    position: fixed;
-    top: 50%;
-    margin-left: 4rem;
 
     @media screen and (max-width: 1000px){
         margin: 0;
@@ -34,5 +30,28 @@
 .menu-title {
     display: block;
     font-size: $default-font-size;
+}
+
+.network-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: auto;
+
+  a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: $white-color;
+    font-size: 3rem;
+    width: 5rem;
+    margin: $default-font-size $default-font-size;
+    transition: all 0.2s ease-in;
+
+    &:hover {
+      transform: translateY(-2px);
+    }
+  }
+
 }
 

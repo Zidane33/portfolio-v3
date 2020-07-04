@@ -1,13 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
 
 h1 {
   font-weight: 700;
 }
 
 p,
-a {
-  font-family: 'Helvetica', sans-serif;
+a,
+li {
+  font-family: 'Crimson Text', sans-serif;
   font-size: $default-font-size;
+}
+
+li {
+    font-size: 2em;
 }
 
 a,

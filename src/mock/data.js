@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: 'Hey there, my name is ',
   name: 'Zidane',
-  subtitle: "I'm a software developer",
+  subtitle: "I'm a full stack software developer",
   cta: 'Find Out More',
 };
 
@@ -19,9 +19,9 @@ export const heroData = {
 export const aboutData = {
   img: 'hero2.png',
   paragraphOne:
-    "I'm a an aspiring Web developer with experience working in non-profit management. Most recently as an Executive Director working with graduate students to help them navigate graduate school. My role is varied and always interesting, there is no typical day. Working for non-profits taught me a lot on how best to solve complex problems with limited resources, which is an invaluable skill in the tech world.",
+    "I'm a an aspiring Web developer with experience working in non-profit management",
   paragraphTwo:
-    'I am passionate about all things tech and programming. What started as a hobby blossomed into a career aspiration. I am fully committed to being the best developer I can be, and to that end I am seeking to develop my skills further working on software throughout all phases of the software development cycle.',
+    'I am passionate about all things tech and programming. What started as a hobby blossomed into a career aspiration.',
   paragraphThree:
     "Outside of work I like to work on full stack web applications with a combination of React and backend frameworks like Nodejs and Flask.  This allows me play around with new technology and gives me a better understanding of the digital industry as a whole. It's also incredibly fun!",
   resume: 'https://drive.google.com/file/d/1Kne4lJvNPZKTitgH8hPOlrKa916l3TTE/view?usp=sharing',

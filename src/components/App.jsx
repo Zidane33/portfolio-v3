@@ -29,9 +29,9 @@ function App() {
     <PortfolioProvider id="container" value={{ hero, about, projects, contact, footer }}>
       <Navbar />
       <Hero id="hero" />
-      <About id="/about" />
       <Projects id="projects" />
       <Contact id="contact" />
+      <About id="/about" />
       <Footer />
     </PortfolioProvider>
   );
