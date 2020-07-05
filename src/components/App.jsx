@@ -28,10 +28,12 @@ function App() {
   return (
     <PortfolioProvider id="container" value={{ hero, about, projects, contact, footer }}>
       <Navbar />
-      <Hero id="hero" />
-      <Projects id="projects" />
-      <Contact id="contact" />
-      <About id="/about" />
+      <div className="background">
+        <Hero id="hero" />
+        <Projects id="projects" />
+        <Contact id="contact" />
+        <About id="/about" />
+      </div>
       <Footer />
     </PortfolioProvider>
   );

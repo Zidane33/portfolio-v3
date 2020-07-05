@@ -8,3 +8,13 @@ section {
     padding-right: 1rem;
   }
 }
+
+.background {
+    padding: 5em;
+    background-color: $secondary-color;
+
+    @media screen and (max-width: 1000px){
+        padding: 2em;
+    }
+}
+
