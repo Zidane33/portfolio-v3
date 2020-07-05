@@ -18,8 +18,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'hero2.png',
-  paragraphOne:
-    "I'm a an aspiring Web developer with experience working in non-profit management",
+  paragraphOne: "I'm a an aspiring Web developer with experience working in non-profit management",
   paragraphTwo:
     'I am passionate about all things tech and programming. What started as a hobby blossomed into a career aspiration.',
   paragraphThree:
@@ -90,7 +89,7 @@ export const footerData = {
     {
       id: uuidv1(),
       name: 'linkedin',
-      url: 'https://www.linkedin.com/in/zidane-mohamed-15002795/',
+      url: 'https://www.linkedin.com/in/zidan-mohamed-15002795/',
     },
     {
       id: uuidv1(),
@@ -98,9 +97,4 @@ export const footerData = {
       url: 'https://github.com/Zidane33',
     },
   ],
-};
-
-// Github start/fork buttons
-export const githubButtons = {
-  isEnabled: false,
 };
