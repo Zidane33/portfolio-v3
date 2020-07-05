@@ -18,6 +18,10 @@
 .menu-link {
     margin: 2rem 2rem;
     font-size: 20px;
+
+    @media screen and (max-width: 1000px) {
+        font-size: 15px;
+    }
 }
 
 #menu-button {
@@ -51,6 +55,10 @@
     &:hover {
       transform: translateY(-2px);
     }
+  }
+
+  @media screen and (max-width: 1000px){
+      display: none;
   }
 
 }
