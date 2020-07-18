@@ -89,7 +89,7 @@ export const footerData = {
     {
       id: uuidv1(),
       name: 'linkedin',
-      url: 'https://www.linkedin.com/in/zidan-mohamed-15002795/',
+      url: 'https://www.linkedin.com/in/zidan-hisham-15002795/',
     },
     {
       id: uuidv1(),
