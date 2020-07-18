@@ -23,7 +23,7 @@ export const aboutData = {
     'I am passionate about all things tech and programming. What started as a hobby blossomed into a career aspiration.',
   paragraphThree:
     "Outside of work I like to work on full stack web applications with a combination of React and backend frameworks like Nodejs and Flask.  This allows me play around with new technology and gives me a better understanding of the digital industry as a whole. It's also incredibly fun!",
-  resume: 'https://drive.google.com/file/d/15MyniD13N9w8DZ1ulEPC4L6LrQVD_yPf/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1f3XPeekRuQd03bJ9DNE0-mbjLIHydMcp/view?usp=sharing',
 };
 
 // PROJECTS DATA
