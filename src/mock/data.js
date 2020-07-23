@@ -2,7 +2,7 @@ import uuidv1 from 'uuid/v1';
 
 // HEAD DATA
 export const headData = {
-  title: "Zidane's portfolio",
+  title: "Zidan's portfolio",
   lang: 'en',
   description: 'Welcome to my portfolio',
 };
@@ -10,7 +10,7 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: 'Hey there, my name is ',
-  name: 'Zidane',
+  name: 'Zidan',
   subtitle: "I'm a full stack software developer",
   cta: 'Find Out More',
 };
