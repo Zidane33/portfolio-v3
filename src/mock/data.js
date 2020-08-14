@@ -18,12 +18,12 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'hero2.png',
-  paragraphOne: "I'm a an aspiring Web developer with experience working in non-profit management",
+  paragraphOne: 'I am a full-stack engineer, currently living in Toronto, Canada.',
   paragraphTwo:
-    'I am passionate about all things tech and programming. What started as a hobby blossomed into a career aspiration.',
+    'In my free time, I study human computer interface and the psychology of human computer interaction. I am both driven and self-motivated, and I am constantly experimenting with new technologies and techniques.',
   paragraphThree:
-    "Outside of work I like to work on full stack web applications with a combination of React and backend frameworks like Nodejs and Flask.  This allows me play around with new technology and gives me a better understanding of the digital industry as a whole. It's also incredibly fun!",
-  resume: 'https://drive.google.com/file/d/1f3XPeekRuQd03bJ9DNE0-mbjLIHydMcp/view?usp=sharing',
+    'I am very passionate about Web Development, and strive to better myself as a developer, and the development community as a whole.',
+  resume: 'https://drive.google.com/file/d/1IJNvjq5cLwY8YmYkjGmXRjLdtsBPi51F/view?usp=sharing',
 };
 
 // PROJECTS DATA
