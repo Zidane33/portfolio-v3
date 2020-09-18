@@ -23,7 +23,7 @@ export const aboutData = {
     'In my free time, I study human computer interface and the psychology of human computer interaction. I am both driven and self-motivated, and I am constantly experimenting with new technologies and techniques.',
   paragraphThree:
     'I am very passionate about Web Development, and strive to better myself as a developer, and the development community as a whole.',
-  resume: 'https://drive.google.com/file/d/1IJNvjq5cLwY8YmYkjGmXRjLdtsBPi51F/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/12nSMDKmJqe8KIX7-8vFTg-l3mrCg2ttT/view?usp=sharing',
 };
 
 // PROJECTS DATA
