@@ -84,7 +84,7 @@ export const footerData = {
     {
       id: uuidv1(),
       name: 'twitter',
-      url: 'https://twitter.com/notZinedine',
+      url: 'https://twitter.com/Zidane_Dev',
     },
     {
       id: uuidv1(),
